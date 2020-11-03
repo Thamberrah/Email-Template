@@ -16,8 +16,7 @@ table {
 	margin-right: 0;
 	margin-bottom: 0;
 	margin-left: 0;	
-	mso-table-lspace: 0pt; /* Outlook Desktop floated table spacing fix */
-	mso-table-rspace: 0pt; /* Outlook Desktop floated table spacing fix */
+
 }
 th, td {
     padding: 0;
@@ -181,6 +180,7 @@ p.post-content {
     color: #aaaaaa;
     text-align: left;
     background-color: #f4f3f4;
+    padding-top: 20px;
 }
 
 @media only screen and (max-width: 500px) {
