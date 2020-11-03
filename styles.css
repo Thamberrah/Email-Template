@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;  /* Prevents Webkit platforms from changing default font sizes. */
+	-ms-text-size-adjust: none; /* Prevents Windows Mobile platforms from changing default font sizes. */
+}
+
+table {	
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;	
+	mso-table-lspace: 0pt; /* Outlook Desktop floated table spacing fix */
+	mso-table-rspace: 0pt; /* Outlook Desktop floated table spacing fix */
+}
+th, td {
+    padding: 0;
+    border-width: 0;
+    border-style: none;
+    vertical-align: middle;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    width: 100%;
+    background-color: #f4f3f4;
+}
+table.container {
+    width: 600px;
+    min-width: 600px;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffffff;
+}
+table.headliner {
+    width: 100%;
+}
+p.pre-content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #aaaaaa;
+    text-align: center;
+}
+tr.heading {
+    width: 100%;
+    background-color: #333333;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+tr.heading p {
+    padding-left: 10px;
+}
+
+.column-1, .column-2 {
+    margin-top: 15px;
+}
+th.col-2 {
+    width: 50%;
+    text-align: left;
+}
+p.article {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    padding-left: 15px;
+}
+p.article-text {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 150%;
+    padding-left: 15px;
+}
+
+th.col-3 {
+    width: 25%;
+    text-align: center;
+}
+table.items {
+    margin-top: 30px;
+}
+p.item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+p.item-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 150%;
+}
+p.item1, p.item2, p.text1, p.text2 {
+    border-right: 1px black solid;
+}
